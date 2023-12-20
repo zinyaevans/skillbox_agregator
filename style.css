@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    padding: 40px 0;
+}
+
+section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.info-block-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    width: 200px;
+    height: 200px;
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+.value {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
